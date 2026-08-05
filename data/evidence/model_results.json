@@ -1,0 +1,30 @@
+{
+  "schema": "aletheia.portable.model_results.v1",
+  "boundary": "Sanitized extracts from frozen internal reports. Original artifact hashes are retained for provenance.",
+  "results": [
+    {
+      "id": "qwen",
+      "model": "qwen3:8b",
+      "blind_hit_trials": 0,
+      "trials": 25,
+      "null_hit_trials": 0,
+      "source_artifact_sha256": "bb420b6b4e40f0f11eb5d725f814f90e3d01dc3687027ed97b5cfa3f5b99e49d"
+    },
+    {
+      "id": "haiku",
+      "model": "claude-haiku-4-5-20251001",
+      "blind_hit_trials": 0,
+      "trials": 25,
+      "null_hit_trials": 0,
+      "source_artifact_sha256": "5eb13ad85ba857522beed3eec38d9ac15491aefaa6ca5c63e4714e17bfe0ddb0"
+    },
+    {
+      "id": "codex",
+      "model": "codex-cli:gpt-5.6-sol",
+      "blind_hit_trials": 15,
+      "trials": 25,
+      "null_hit_trials": 0,
+      "source_artifact_sha256": "d4ad13d058df3d9a5afeb4059b7f0ebbd3f2450b9e57bd650fb2dd806e407891"
+    }
+  ]
+}

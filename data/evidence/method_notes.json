@@ -1,0 +1,20 @@
+{
+  "schema": "aletheia.portable.method_notes.v1",
+  "boundary": "Sanitized method notes. These records preserve status and original source hashes.",
+  "notes": [
+    {
+      "id": "j57",
+      "status": "VERIFIED",
+      "summary": "A known-answer calibration found the live solver configuration took more than 3.4 times as long. Proof output added 0.6 percent in that calibration.",
+      "claim_ceiling": "One solver configuration on one instance family. No mathematical-truth claim.",
+      "source_artifact_sha256": "cdb03eff4de6446a951a8fe694dcd1b84df5b717f0d36a75aa44396837fbfa10"
+    },
+    {
+      "id": "c61",
+      "status": "CANDIDATE",
+      "summary": "A known-answer suite still passed after 94.9 percent of one encoded formula was deleted. A certificate can verify an encoding while leaving its mapping to the intended problem unchecked.",
+      "claim_ceiling": "Method warning from one encoding audit. This record remains a candidate.",
+      "source_artifact_sha256": "dcc9efeeda41b263c7670bc9e04062d2a19596d883efd50deebc0495218e49fa"
+    }
+  ]
+}

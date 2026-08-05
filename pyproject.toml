@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aletheia-argument-graph-demo"
+version = "0.1.0"
+description = "A source-bound argument graph work sample with deterministic verification"
+readme = "README.md"
+requires-python = ">=3.11"
+license = {text = "MIT"}
+authors = [{name = "Project Aletheia"}]
+dependencies = []
+
+[project.scripts]
+aletheia-argument-graph = "aletheia_argument_graph.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

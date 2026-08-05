@@ -1,0 +1,15 @@
+{
+  "schema": "aletheia.portable.source_manifest.v1",
+  "sources": [
+    {
+      "id": "model_results",
+      "path": "data/evidence/model_results.json",
+      "sha256": "e4024782f39dcf2a5288566580a1a88caca85cf499da901f83c9a5aa6b1a9f38"
+    },
+    {
+      "id": "method_notes",
+      "path": "data/evidence/method_notes.json",
+      "sha256": "c15f91fb059a3f575ea1d713f4f223bac1b3f674f85e00828ff07497d29dc453"
+    }
+  ]
+}
